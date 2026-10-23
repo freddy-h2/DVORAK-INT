@@ -1037,9 +1037,6 @@
         <action id="a15">
             <when state="none" next="3"/>
         </action>
-        <action id="a16">
-            <when state="none" next="4"/>
-        </action>
         <action id="a17">
             <when state="none" output="N"/>
             <when state="4" output="Ñ"/>
@@ -1125,7 +1122,7 @@
         <when state="3" output="ˆ"/>
         <when state="4" output="˜"/>
         <when state="5" output="`"/>
-        <when state="acentos" output=""/>
+        <when state="acentos" output="&#x0027;"/>
         <when state="comillas" output="&#x0022;"/>
     </terminators>
 </keyboard>
